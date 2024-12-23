@@ -2,37 +2,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>InterestSphere Gender Selection</title>
-  <link rel="stylesheet" href="gender.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterestSphere Welcome</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="modal">
-    <div class="modal-content">
-      <div class="progress-indicator">
-        <div class="dot active"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-      <h2>What's your gender?</h2>
-      <p>
-        This helps us find you more relevant content. We won’t show it on your profile.
-      </p>
-      <form id="gender-form">
-        <label>
-          <input type="radio" name="gender" value="female"> Female
-        </label>
-        <label>
-          <input type="radio" name="gender" value="male"> Male
-        </label>
-        <label>
-          <input type="radio" name="gender" value="other"> Specify another
-        </label>
-        <button type="submit" class="next-button">Next</button>
-      </form>
+    <div class="welcome-container">
+        <div class="welcome-card">
+            <div class="profile-picture">
+                <span class="initial">T</span>
+            </div>
+            <h2>InterestSphere Welcome's you</h2>
+            <p class="email">thejuvasista@gmail.com</p>
+            <p>Your answers to the next few questions will help us find the right ideas for you.</p>
+            <button id="next-button">Next</button>
+            <p class="login-option">Already have a Pinterest account? <a href="#">Log in instead</a></p>
+        </div>
     </div>
-  </div>
-  <script src="gender.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
